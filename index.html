@@ -14,7 +14,7 @@
   <body class="flex flex-col items-center">
     <h1 class="my-3 text-xl font-bold text-purple-600">Login/Registration</h1>
     <form
-      class="flex border-spacing-4 flex-col gap-2 rounded border border-black p-4"
+      class="flex border-spacing-4 flex-col items-center gap-2 rounded border border-black p-4"
     >
       <div>
         <label for="username">Username</label>
@@ -33,6 +33,11 @@
           id="Password"
           placeholder="Password"
         />
+      </div>
+
+      <div>
+        <input type="checkbox" id="remember-me" />
+        <label for="remember-me" class="visible"> Remember Me </label>
       </div>
 
       <button
