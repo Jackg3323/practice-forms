@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login/Registration</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs normalize/8.0.1/normalize.min.css"
-    />
-
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body class="flex flex-col items-center">
@@ -37,7 +32,7 @@
       </div>
 
       <div>
-        <input type="checkbox" id="remember-me" />
+        <input type="checkbox" id="remember-me" name="saveUsername" />
         <label for="remember-me" class="not-sr-only"> Remember Me </label>
       </div>
 
@@ -48,5 +43,7 @@
         Submit
       </button>
     </form>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
