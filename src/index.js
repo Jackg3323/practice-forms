@@ -5,4 +5,8 @@ form /
     event.preventDefault();
 
     const submission = object.fromEntries(new FormData(event.target));
+
+    if (Object.keys(submission).includes("saveUsername")) {
+      localStorage.setItem("username", submission.username);
+    }
   });
